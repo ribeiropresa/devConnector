@@ -11,7 +11,7 @@ const ProfileItem = ({
         skills
     }
 }) => {
-    return <div className='container'>
+    return (
         <div className='profile bg-light'>
             <img className='round-img' src={avatar} alt=''/>
             <div>
@@ -30,7 +30,7 @@ const ProfileItem = ({
                 ))}
             </ul>
         </div>
-    </div>
+    )
 }
 
 ProfileItem.propTypes = {

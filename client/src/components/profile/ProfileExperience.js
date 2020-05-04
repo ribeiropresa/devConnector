@@ -4,7 +4,7 @@ import Moment from 'react-moment';
 
 const ProfileExperience = ({
     experience: { company, title, location, current, to, from, description }
-}) => ( <div className='container'>
+}) => ( <div>
         <h3 className='text-dark'>{company}</h3>
         <p>
             <Moment format='YYYY/MM/DD'>{from}</Moment> - 
