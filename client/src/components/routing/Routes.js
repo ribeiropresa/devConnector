@@ -7,7 +7,7 @@ import CreateProfile from '../profile-form/CreateProfile';
 import Dashboard from '../dashboard/Dashboard';
 import EditProfile from '../profile-form/EditProfile';
 import Login from '../auth/Login';
-import NotFound from '../layout/Alert'
+import NotFound from '../layout/NotFound';
 import Post from '../post/Post';
 import Posts from '../posts/Posts';
 import PrivateRoute from '../routing/PrivateRoute';
